@@ -1,0 +1,126 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Mon Mar 09 11:18:28 2015
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .org_1       code   0x000008    program   0x000004
+                   .org_2       code   0x000018    program   0x000004
+                    .code       code   0x00001c    program   0x0001ba
+             RESET_VECTOR       code   0x002000    program   0x000006
+                   .cinit    romdata   0x002006    program   0x000002
+            HI_INT_VECTOR       code   0x002008    program   0x000004
+           LOW_INT_VECTOR       code   0x002018    program   0x000004
+               .udata_acs      udata   0x000000       data   0x000001
+                   .udata      udata   0x000300       data   0x00000d
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x00000b      
+                            0x000018    0x0001d5      
+                            0x002000    0x00200b      
+                            0x002018    0x00201b      
+            470 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Delay   0x000182    program     static E:\04 haroen\subroutine.asm
+                   Delay1   0x000170    program     static E:\04 haroen\subroutine.asm
+                   Delay2   0x000174    program     static E:\04 haroen\subroutine.asm
+               DelayExtra   0x000186    program     static E:\04 haroen\subroutine.asm
+               DelayInner   0x00018e    program     static E:\04 haroen\subroutine.asm
+                 DelayLCD   0x00016c    program     static E:\04 haroen\subroutine.asm
+                DelayLang   0x00004e    program     static E:\04 haroen\04.asm      
+               DelayOuter   0x00018a    program     static E:\04 haroen\subroutine.asm
+                    Epuls   0x00015e    program     static E:\04 haroen\subroutine.asm
+                  HighInt   0x00001c    program     static E:\04 haroen\04.asm      
+                   LowInt   0x00001e    program     static E:\04 haroen\04.asm      
+                     Main   0x000038    program     static E:\04 haroen\04.asm      
+                      als   0x000142    program     static E:\04 haroen\04.asm      
+              bezighouden   0x00015c    program     static E:\04 haroen\04.asm      
+                  deling1   0x0001a8    program     static E:\04 haroen\subroutine.asm
+                  deling2   0x0001be    program     static E:\04 haroen\subroutine.asm
+                 eindeals   0x000154    program     static E:\04 haroen\04.asm      
+                     loop   0x000130    program     static E:\04 haroen\04.asm      
+                      lus   0x000098    program     static E:\04 haroen\04.asm      
+                     lus2   0x0000bc    program     static E:\04 haroen\04.asm      
+               lusdeling1   0x0001aa    program     static E:\04 haroen\subroutine.asm
+               lusdeling2   0x0001c0    program     static E:\04 haroen\subroutine.asm
+                    lusje   0x0000e2    program     static E:\04 haroen\04.asm      
+                   lusje2   0x000108    program     static E:\04 haroen\04.asm      
+        omzettingDecimaal   0x0001a2    program     static E:\04 haroen\subroutine.asm
+                  opgave1   0x000084    program     static E:\04 haroen\04.asm      
+                  opgave2   0x0000ce    program     static E:\04 haroen\04.asm      
+                  opgave3   0x00011c    program     static E:\04 haroen\04.asm      
+                 BSR_TEMP   0x000302       data     static E:\04 haroen\04.asm      
+                    DVAR1   0x000303       data     static E:\04 haroen\04.asm      
+                    DVAR2   0x000304       data     static E:\04 haroen\04.asm      
+                    DVAR3   0x000305       data     static E:\04 haroen\04.asm      
+                  EXAMPLE   0x000000       data     static E:\04 haroen\04.asm      
+              STATUS_TEMP   0x000301       data     static E:\04 haroen\04.asm      
+                WREG_TEMP   0x000300       data     static E:\04 haroen\04.asm      
+                  deeltal   0x000309       data     static E:\04 haroen\04.asm      
+                  eenheid   0x000308       data     static E:\04 haroen\04.asm      
+               honderdtal   0x000306       data     static E:\04 haroen\04.asm      
+                 quotient   0x00030a       data     static E:\04 haroen\04.asm      
+                   teller   0x00030c       data     static E:\04 haroen\04.asm      
+                  tiental   0x000307       data     static E:\04 haroen\04.asm      
+                voorbeeld   0x00030b       data     static E:\04 haroen\04.asm      
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  HighInt   0x00001c    program     static E:\04 haroen\04.asm      
+                   LowInt   0x00001e    program     static E:\04 haroen\04.asm      
+                     Main   0x000038    program     static E:\04 haroen\04.asm      
+                DelayLang   0x00004e    program     static E:\04 haroen\04.asm      
+                  opgave1   0x000084    program     static E:\04 haroen\04.asm      
+                      lus   0x000098    program     static E:\04 haroen\04.asm      
+                     lus2   0x0000bc    program     static E:\04 haroen\04.asm      
+                  opgave2   0x0000ce    program     static E:\04 haroen\04.asm      
+                    lusje   0x0000e2    program     static E:\04 haroen\04.asm      
+                   lusje2   0x000108    program     static E:\04 haroen\04.asm      
+                  opgave3   0x00011c    program     static E:\04 haroen\04.asm      
+                     loop   0x000130    program     static E:\04 haroen\04.asm      
+                      als   0x000142    program     static E:\04 haroen\04.asm      
+                 eindeals   0x000154    program     static E:\04 haroen\04.asm      
+              bezighouden   0x00015c    program     static E:\04 haroen\04.asm      
+                    Epuls   0x00015e    program     static E:\04 haroen\subroutine.asm
+                 DelayLCD   0x00016c    program     static E:\04 haroen\subroutine.asm
+                   Delay1   0x000170    program     static E:\04 haroen\subroutine.asm
+                   Delay2   0x000174    program     static E:\04 haroen\subroutine.asm
+                    Delay   0x000182    program     static E:\04 haroen\subroutine.asm
+               DelayExtra   0x000186    program     static E:\04 haroen\subroutine.asm
+               DelayOuter   0x00018a    program     static E:\04 haroen\subroutine.asm
+               DelayInner   0x00018e    program     static E:\04 haroen\subroutine.asm
+        omzettingDecimaal   0x0001a2    program     static E:\04 haroen\subroutine.asm
+                  deling1   0x0001a8    program     static E:\04 haroen\subroutine.asm
+               lusdeling1   0x0001aa    program     static E:\04 haroen\subroutine.asm
+                  deling2   0x0001be    program     static E:\04 haroen\subroutine.asm
+               lusdeling2   0x0001c0    program     static E:\04 haroen\subroutine.asm
+                  EXAMPLE   0x000000       data     static E:\04 haroen\04.asm      
+                WREG_TEMP   0x000300       data     static E:\04 haroen\04.asm      
+              STATUS_TEMP   0x000301       data     static E:\04 haroen\04.asm      
+                 BSR_TEMP   0x000302       data     static E:\04 haroen\04.asm      
+                    DVAR1   0x000303       data     static E:\04 haroen\04.asm      
+                    DVAR2   0x000304       data     static E:\04 haroen\04.asm      
+                    DVAR3   0x000305       data     static E:\04 haroen\04.asm      
+               honderdtal   0x000306       data     static E:\04 haroen\04.asm      
+                  tiental   0x000307       data     static E:\04 haroen\04.asm      
+                  eenheid   0x000308       data     static E:\04 haroen\04.asm      
+                  deeltal   0x000309       data     static E:\04 haroen\04.asm      
+                 quotient   0x00030a       data     static E:\04 haroen\04.asm      
+                voorbeeld   0x00030b       data     static E:\04 haroen\04.asm      
+                   teller   0x00030c       data     static E:\04 haroen\04.asm      
+
+
