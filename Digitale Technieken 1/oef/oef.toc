@@ -1,7 +1,0 @@
-\select@language {english}
-\select@language {dutch}
-\contentsline {section}{\numberline {1}Inleiding}{2}{section.1}
-\contentsline {section}{\numberline {2}Les 1}{2}{section.2}
-\contentsline {section}{\numberline {3}Les 2}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}1-bit-comparator}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Magnitude-comparator}{3}{subsection.3.2}
