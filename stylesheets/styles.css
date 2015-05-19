@@ -120,6 +120,15 @@ header ul {
   box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   width: auto;
 }
+header ul:hover {
+  background: #5198DF;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #88CAFF), color-stop(100%, #4090DE));
+  background: -webkit-linear-gradient(#88CAFF, #4090DE);
+  background: -moz-linear-gradient(#88CAFF, #4090DE);
+  background: -o-linear-gradient(#88CAFF, #4090DE);
+  background: -ms-linear-gradient(#88CAFF, #4090DE);
+  background: linear-gradient(#88CAFF, #4090DE);
+}
 header ul:before {
   content: '';
   position: absolute;
